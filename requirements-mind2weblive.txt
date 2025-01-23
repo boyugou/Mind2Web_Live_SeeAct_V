@@ -1,0 +1,11 @@
+backoff==2.2.1
+InquirerPy==0.3.4
+lxml==4.9.3
+openai>=1.0
+playwright==1.40.0
+jsonlines
+protobuf
+BeautifulSoup4
+toml
+aioconsole
+json5

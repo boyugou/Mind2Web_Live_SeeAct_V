@@ -1,0 +1,2 @@
+export VLLM_WORKER_MULTIPROC_METHOD=spawn
+CUDA_VISIBLE_DEVICES=0,3,4,5 python -m vllm.entrypoints.openai.api_server --served-model-name Qwen2-VL-72B-Instruct --limit_mm_per_prompt image=10 --model /data/users/zhangjunlei/download/models/qwen2-vl/sft_vwa_0922_baseline_lora256_bs32/lora_final-merged --port 23334 --dtype bfloat16  --device cuda --gpu-memory-utilization 0.85 --tensor-parallel-size 4

@@ -1,3 +1,30 @@
+# Mind2Web-Live
+
+This repo contains the code for the SeeAct-V agent implementation for Mind2Web-Live (WebCanvas). 
+
+For the modular design of SeeAct-V, please refer to our paper [UGround: Navigating the Digital World as Humans Do:
+Universal Visual Grounding for GUI Agents](https://osu-nlp-group.github.io/UGround/).
+
+Simply put, SeeAct-V involves two steps and models: 
+1. a planner (e.g., GPT-4o) predicts the next action, and
+2. a GUI visual grounding model (e.g., UGround) provides precise action coordinates (if the action involves coordinates) .
+
+The entire pipeline uses only images for observation and grounding.
+
+Note: Here we try to provide the code that is adapted to the latest codebase of WebCanvas codebase. However, the initial results in the paper was finished in July 2024. Therefore, the results run by this codebase may differ from the results reported in the initial paper, when we were still encountering some bugs on a few tasks.
+
+
+
+We will add more instruction about how to run this experiment soon.
+
+### More resources:
+
+- [🏠Homepage](https://osu-nlp-group.github.io/UGround)
+- [📖Paper](https://arxiv.org/abs/2410.05243)
+- [😊Model Weights](https://huggingface.co/collections/osunlp/uground-677824fc5823d21267bc9812)
+- [😊Live Demo](https://huggingface.co/spaces/orby-osu/UGround)
+
+
 <h1 align="center">WebCanvas: Streamline Your Web Agent Development and Evaluation</h1>
 
 
