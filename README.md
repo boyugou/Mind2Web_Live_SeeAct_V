@@ -25,7 +25,7 @@ We will add more instruction about how to run this experiment soon.
 - [😊Live Demo](https://huggingface.co/spaces/orby-osu/UGround)
 
 
-<h1 align="center">WebCanvas: Streamline Your Web Agent Development and Evaluation</h1>
+## WebCanvas: Streamline Your Web Agent Development and Evaluation
 
 
 <p align="center">
